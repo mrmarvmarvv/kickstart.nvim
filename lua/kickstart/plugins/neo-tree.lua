@@ -15,6 +15,7 @@ return {
   },
   opts = {
     filesystem = {
+      hijack_netrw_behavior = 'open_default', -- netrw disabled, opening a directory opens neo-tree
       window = {
         mappings = {
           ['\\'] = 'close_window',
